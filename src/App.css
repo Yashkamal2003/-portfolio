@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+.tech-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem; /* space between balls */
+  margin-top: 2.5rem;
+}
+
+.tech-item {
+  width: 7rem;
+  height: 7rem;
+}
